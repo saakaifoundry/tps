@@ -26,6 +26,12 @@ class Administrateurs::ActivateController < ApplicationController
     end
   end
 
+  def strength
+    require 'zxcvbn'
+    score = Zxcvbn.test(params[:password], [], ZXCVBN_DICTIONNARIES).score
+    render json: { score: score }
+  end
+
   private
 
   def update_administrateur_params
