@@ -774,6 +774,7 @@ GEM
       nokogiri (~> 1.8)
     xray-rails (0.3.1)
       rails (>= 3.1.0)
+    zxcvbn-ruby (0.1.2)
 
 PLATFORMS
   ruby
@@ -867,6 +868,7 @@ DEPENDENCIES
   web-console
   webmock
   xray-rails
+  zxcvbn-ruby
 
 BUNDLED WITH
    1.16.1
