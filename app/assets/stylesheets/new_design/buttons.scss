@@ -23,6 +23,12 @@
     outline: none;
   }
 
+  &:disabled {
+    background-color: $border-grey !important;
+    border-color: $border-grey !important;
+    cursor: default !important;
+  }
+
   &.primary {
     color: #FFFFFF;
     border-color: $blue;
