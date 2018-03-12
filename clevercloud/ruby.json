@@ -1,7 +1,7 @@
 {
   "deploy": {
     "rakegoals": [
-      "db:schema:load",
+      "db:migrate",
       "assets:precompile"
     ]
   }
