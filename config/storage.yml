@@ -1,3 +1,8 @@
 local:
   service: Disk
   root: <%= Rails.root.join("storage") %>
+clever_cloud:
+  service: Cellar
+  access_key_id: <%= ENV['CLEVER_CLOUD_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['CLEVER_CLOUD_SECRET_ACCESS_KEY'] %>
+  bucket: <%= ENV['CLEVER_CLOUD_BUCKET'] %>
