@@ -37,3 +37,4 @@ coverage/**/*
 .env
 Procfile.dev
 storage/
+.clever.json
