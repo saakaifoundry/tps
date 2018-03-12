@@ -57,11 +57,11 @@ set :shared_paths, [
   "config/skylight.yml", #done
   "config/fog_credentials.yml",
   'config/storage.yml', #done
-  'config/initializers/secret_token.rb',
+  'config/initializers/secret_token.rb', #wont do
   'config/initializers/features.yml',
   "config/environments/#{rails_env}.rb",
   "config/initializers/token.rb",
-  "config/unicorn.rb",
+  "config/unicorn.rb",#wont do
   "config/initializers/raven.rb",
   'config/france_connect.yml', #done
   'config/github_secrets.yml', #done
