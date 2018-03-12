@@ -53,18 +53,18 @@ set :shared_paths, [
   'tmp/sockets',
   'public/system',
   'public/uploads',
-  'config/database.yml',
-  "config/skylight.yml",
+  'config/database.yml', #done
+  "config/skylight.yml", #done
   "config/fog_credentials.yml",
-  'config/storage.yml',
+  'config/storage.yml', #done
   'config/initializers/secret_token.rb',
   'config/initializers/features.yml',
   "config/environments/#{rails_env}.rb",
   "config/initializers/token.rb",
   "config/unicorn.rb",
   "config/initializers/raven.rb",
-  'config/france_connect.yml',
-  'config/github_secrets.yml',
+  'config/france_connect.yml', #done
+  'config/github_secrets.yml', #done
   'config/basic_auth.yml',
   'config/initializers/mailjet.rb',
   'config/initializers/storage_url.rb'
