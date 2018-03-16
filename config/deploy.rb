@@ -59,14 +59,14 @@ set :shared_paths, [
   'config/storage.yml', #done
   'config/initializers/secret_token.rb', #wont do
   'config/initializers/features.yml',
-  "config/environments/#{rails_env}.rb",
+  "config/environments/#{rails_env}.rb", #wont do
   "config/initializers/token.rb",
   "config/unicorn.rb",#wont do
   "config/initializers/raven.rb", #done
   'config/france_connect.yml', #done
   'config/github_secrets.yml', #done
-  'config/basic_auth.yml',
-  'config/initializers/mailjet.rb',
+  'config/basic_auth.yml', #done
+  'config/initializers/mailjet.rb', #done
   'config/initializers/storage_url.rb'
 ]
 
