@@ -68,8 +68,6 @@ end
 
 DatabaseCleaner.strategy = :transaction
 
-SIADETOKEN = :valid_token if !defined? SIADETOKEN
-
 include Warden::Test::Helpers
 
 include SmartListing::Helper
