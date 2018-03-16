@@ -62,7 +62,7 @@ set :shared_paths, [
   "config/environments/#{rails_env}.rb",
   "config/initializers/token.rb",
   "config/unicorn.rb",#wont do
-  "config/initializers/raven.rb",
+  "config/initializers/raven.rb", #done
   'config/france_connect.yml', #done
   'config/github_secrets.yml', #done
   'config/basic_auth.yml',
