@@ -55,12 +55,12 @@ set :shared_paths, [
   'public/uploads',
   'config/database.yml', #done
   "config/skylight.yml", #done
-  "config/fog_credentials.yml",
+  "config/fog_credentials.yml", #done
   'config/storage.yml', #done
   'config/initializers/secret_token.rb', #wont do
   'config/initializers/features.yml',
   "config/environments/#{rails_env}.rb", #wont do
-  "config/initializers/token.rb",
+  "config/initializers/token.rb", #done
   "config/unicorn.rb",#wont do
   "config/initializers/raven.rb", #done
   'config/france_connect.yml', #done

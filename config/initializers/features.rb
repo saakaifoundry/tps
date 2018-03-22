@@ -22,5 +22,9 @@ class Features
         false
       end
     end
+
+    def remote_storage
+      Rails.application.secrets.fog[:active].present?
+    end
   end
 end
